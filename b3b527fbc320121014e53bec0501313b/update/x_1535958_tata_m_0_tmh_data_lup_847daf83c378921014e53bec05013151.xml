@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1535958_tata_m_0_tmh_data_lup">
+    <x_1535958_tata_m_0_tmh_data_lup action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assignment_group display_value="Analytics Settings Managers" name="Analytics Settings Managers">019ad92ec7230010393d265c95c260dd</assignment_group>
+        <order>100</order>
+        <services>Medical Outdoor Services</services>
+        <sys_class_name>x_1535958_tata_m_0_tmh_data_lup</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 08:25:22</sys_created_on>
+        <sys_id>847daf83c378921014e53bec05013151</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
+        <sys_update_name>x_1535958_tata_m_0_tmh_data_lup_847daf83c378921014e53bec05013151</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 08:25:22</sys_updated_on>
+    </x_1535958_tata_m_0_tmh_data_lup>
+</record_update>

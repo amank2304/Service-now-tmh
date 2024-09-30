@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_1535958_tata_m_0_tmh_data</collection>
+        <condition table="x_1535958_tata_m_0_tmh_data">statusCHANGESTOResolved^EQ<item display_value="Resolved" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="Resolved"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"></p>
+<p>Hello ${caller_id.name},</p>
+<p>Your ticket #${number} has been resolved with the following details:</p>
+<p>Short Description: ${<label dir="ltr" for="x_1535958_tata_m_0_tmh_data.ticket_summary"><span title="" data-original-title="" data-html="false">ticket_summary</span></label>}</p>
+<p>please review the resolution and let us know if it is acceptable:</p>
+<p>&nbsp;</p>
+<style>
+#button1{
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+</style>
+<p style="margin-left: 250px;"><a id="button1" class="btn btn-primary" style="background-color: green; color: white; padding: 10px 15px:border-radius: 5px;" href="#">Accept</a> <a id="button2" class="btn btn-primary" style="background-color: red; color: white; padding: 10px 15px:border-radius: 5px;" href="#">Reject</a></p>
+<p>${action.opened_by('Accept','accept_resolution')}</p>
+<p>${action.opened_by('Reject','reject_resolution')}</p>
+<p>&nbsp;</p>
+<p>you can view more details here: ${URI_REF}</p>
+<p>Regards</p>
+<p>None</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>tmh reso with buttons</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assigned_t0,e_mail</recipient_fields>
+        <recipient_groups/>
+        <recipient_users>6816f79cc0a8016401c5a33be04be441,e3ce0150c37c521014e53bec05013163</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>buttons</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 05:33:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57a3c7cbc374921014e53bec0501314f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>tmh reso with buttons</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
+        <sys_update_name>sysevent_email_action_57a3c7cbc374921014e53bec0501314f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 06:35:50</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="AES app template email - Standard">f749cd1dc3670110a9f5e548fa40ddd3</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

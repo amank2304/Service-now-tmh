@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>tmh_lookup1</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1535958_tata_m_0_tmh_lookup1</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Task" name="task">1681893b8d020210d0ad51af4186635c</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 07:05:55</sys_created_on>
+        <sys_id>b5905272c3bc121014e53bec050131ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tmh_lookup1</sys_name>
+        <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
+        <sys_update_name>sys_db_object_b5905272c3bc121014e53bec050131ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 07:05:55</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_1535958_tata_m_0.tmh_lookup1_user" name="x_1535958_tata_m_0.tmh_lookup1_user">1eb19272c3bc121014e53bec05013127</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

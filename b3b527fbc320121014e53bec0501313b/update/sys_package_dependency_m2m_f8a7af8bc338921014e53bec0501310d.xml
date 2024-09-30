@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Data Lookup and Record Matching Support" source="com.glide.data_lookup">5d754df38dc20210d0ad51af418663b4</dependency>
+        <min_version>1.0.6</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 07:59:44</sys_created_on>
+        <sys_id>f8a7af8bc338921014e53bec0501310d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 07:59:44</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="TMH Data lup" language="en" table="x_1535958_tata_m_0_tmh_data_lup">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>TMH Data lup</label>
+            <language>en</language>
+            <name>x_1535958_tata_m_0_tmh_data_lup</name>
+            <plural>TMH Data lups</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-27 07:59:44</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>TMH Data lup</sys_name>
+            <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
+            <sys_update_name>sys_documentation_x_1535958_tata_m_0_tmh_data_lup__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-27 07:59:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
