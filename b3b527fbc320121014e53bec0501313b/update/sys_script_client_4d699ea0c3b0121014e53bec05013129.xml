@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>services</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>assignment_group_from_services</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+   var servicevalue=g_form.getValue('services');
+   switch(servicevalue){
+	case 'Medical Outdoor Services':
+		g_form.setValue('assignment_group','d625dccec0a8016700a222a0f7900d06');
+		break;
+	case 'Medical Indoor Services':
+		g_form.setValue('assignment_group','74ad1ff3c611227d01d25feac2af603f');
+		break;
+	case 'Hospital Administration':
+		g_form.setValue('assignment_group','dc0db135c332010016194ffe5bba8f23');
+		break;
+	case 'Other Services':
+		g_form.setValue('assignment_group','679434f053231300e321ddeeff7b12d8');
+		break;
+	case '--None--':
+		g_form.clearValue('assignment_group');
+		break;
+
+	default:
+		g_form.clearValue('assignment_group');
+		break;	
+
+   }
+
+   
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 08:09:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4d699ea0c3b0121014e53bec05013129</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>assignment_group_from_services</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
+        <sys_update_name>sys_script_client_4d699ea0c3b0121014e53bec05013129</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 08:08:05</sys_updated_on>
+        <table>x_1535958_tata_m_0_tmh_data</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

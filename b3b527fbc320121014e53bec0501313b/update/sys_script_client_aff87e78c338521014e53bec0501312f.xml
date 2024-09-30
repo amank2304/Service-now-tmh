@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Once ticket is assign to individual, ticket status should change to In Progress</description>
+        <field>assigned_to</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Status_change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+    // Ensure the script is not triggered during form loading
+    if (isLoading || newValue === oldValue) {
+        return;
+    }
+
+    // Check if assigned_to field has changed and is populated
+	var assign_grp=g_form.getValue('assigned_to')
+    if (assign_grp!=null) {
+        // Set the status to 'In Progress'
+        g_form.setValue('state', 2); // Assuming '2' is the value for 'In Progress'
+    }
+	
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-20 05:01:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aff87e78c338521014e53bec0501312f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Status_change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
+        <sys_update_name>sys_script_client_aff87e78c338521014e53bec0501312f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 06:10:22</sys_updated_on>
+        <table>x_1535958_tata_m_0_tmh_data</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

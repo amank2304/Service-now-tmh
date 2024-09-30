@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="35c76f7fc320121014e53bec050131b6" extends="task" label="tmh_data" max_length="40" name="x_1535958_tata_m_0_tmh_data" type="collection">
+        <element label="Address/Department" max_length="40" name="address_department" type="string"/>
+        <element label="Assigned to" max_length="32" name="assigned_t0" reference="sys_user" type="reference"/>
+        <element label="Assignment group" max_length="40" name="assignment_grou0" type="string"/>
+        <element choice="1" label="Category" max_length="40" name="category" type="string">
+            <choice/>
+        </element>
+        <element label="Cause" max_length="40" name="cause" type="string"/>
+        <element label="Closed On (dd-MM-yyyy hh:mm:ss a)" max_length="40" name="closed_on" type="glide_date_time"/>
+        <element label="Closure Notes" max_length="40" name="closure_notes" type="string"/>
+        <element label="Complaint Category" mandatory="true" max_length="40" name="complaint_category" type="string"/>
+        <element label="Contact number" mandatory="true" max_length="40" name="contact_number" type="string"/>
+        <element label="Date of incidence (yyyy-MM-dd)" mandatory="true" max_length="40" name="date_of_incident" type="glide_date"/>
+        <element label="Email Address" max_length="40" name="e_mail" type="string"/>
+        <element label="IP number" max_length="40" name="ip_number" type="string"/>
+        <element label="Patient category" max_length="40" name="patient_category" type="string"/>
+        <element label="Patient MR No." mandatory="true" max_length="40" name="patient_mr_no" type="string"/>
+        <element label="Patient name" mandatory="true" max_length="40" name="patient_name" reference="sys_user" type="reference"/>
+        <element choice="1" label="Section" max_length="40" name="section" type="string">
+            <choice/>
+        </element>
+        <element choice="3" label="Services" mandatory="true" max_length="40" name="services" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Medical Outdoor Services" sequence="0" value="Medical Outdoor Services"/>
+                <element inactive_on_update="false" label="Medical Indoor Services" sequence="1" value="Medical Indoor Services"/>
+                <element inactive_on_update="false" label="Hospital Administration" sequence="2" value="Hospital Administration"/>
+                <element inactive_on_update="false" label="Other Services" sequence="3" value="Other Services"/>
+            </choice>
+        </element>
+        <element choice="1" label="Severity" max_length="40" name="severity" type="string">
+            <choice/>
+        </element>
+        <element label="Solution" max_length="40" name="solution" type="string"/>
+        <element choice="3" default="Open" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="In Progress"/>
+                <element inactive_on_update="false" label="Resolved" sequence="2" value="Resolved"/>
+                <element inactive_on_update="false" label="Closed" sequence="3" value="Closed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="Cancelled"/>
+            </choice>
+        </element>
+        <element choice="1" label="Sub Category" max_length="40" name="sub_category" type="string">
+            <choice/>
+        </element>
+        <element label="Symptom" max_length="40" name="symptom" type="string"/>
+        <element label="Ticket details" max_length="40" name="ticket_details" type="string"/>
+        <element label="Ticket summary" mandatory="true" max_length="40" name="ticket_summary" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>tmh_lookup1</name>
+        <order>100</order>
+        <roles>x_1535958_tata_m_0.tmh_lookup1_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 07:05:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7eb1deb2c3bc121014e53bec0501316e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tmh_lookup1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
+        <sys_update_name>sys_app_application_7eb1deb2c3bc121014e53bec0501316e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 07:05:55</sys_updated_on>
+        <title>tmh_lookup1</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

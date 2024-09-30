@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="26f02efdc330121014e53bec0501317c" label="tmh_data_lookup" max_length="40" name="x_1535958_tata_m_0_tmh_data_lookup" type="collection">
+        <element label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element choice="3" label="Services" max_length="40" name="services" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Medical Outdoor Services" sequence="0" value="Medical Outdoor Services"/>
+                <element inactive_on_update="false" label="Medical Indoor Services" sequence="1" value="Medical Indoor Services"/>
+                <element inactive_on_update="false" label="Hospital Administration" sequence="2" value="Hospital Administration"/>
+                <element inactive_on_update="false" label="Other Services" sequence="3" value="Other Services"/>
+            </choice>
+        </element>
+    </element>
+</database>
