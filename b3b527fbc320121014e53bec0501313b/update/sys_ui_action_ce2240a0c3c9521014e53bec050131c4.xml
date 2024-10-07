@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name>accept_resolution</action_name>
+        <action_name>reject_resolution</action_name>
         <active>true</active>
-        <client>false</client>
+        <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
@@ -27,14 +27,10 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>tmh accept reso</name>
+        <name>tmh reject resolution</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[current.state='Closed Complete';
-
-current.colosed_by=gs.getUserID();
-current.close_on=gs.nowDateTime();
-
+        <script><![CDATA[current.state='Open';
 current.update();]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -42,32 +38,32 @@ current.update();]]></script>
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-27 05:39:17</sys_created_on>
+        <sys_created_on>2024-10-01 07:10:43</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>61078fcfc374921014e53bec05013187</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>tmh accept reso</sys_name>
+        <sys_id>ce2240a0c3c9521014e53bec050131c4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>tmh reject resolution</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
-        <sys_update_name>sys_ui_action_61078fcfc374921014e53bec05013187</sys_update_name>
+        <sys_update_name>sys_ui_action_ce2240a0c3c9521014e53bec050131c4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-01 08:37:31</sys_updated_on>
+        <sys_updated_on>2024-10-03 08:57:59</sys_updated_on>
         <table>x_1535958_tata_m_0_tmh_data</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>61078fcfc374921014e53bec05013187</id>
+        <id>ce2240a0c3c9521014e53bec050131c4</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-27 05:39:16</sys_created_on>
-        <sys_id>03770b03c3b4921014e53bec05013186</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2024-10-01 07:10:41</sys_created_on>
+        <sys_id>9dc288a0c3c9521014e53bec05013196</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-27 05:39:16</sys_updated_on>
+        <sys_updated_on>2024-10-03 08:57:56</sys_updated_on>
         <table>sys_ui_action</table>
-        <use_es_latest>true</use_es_latest>
+        <use_es_latest>false</use_es_latest>
     </sys_es_latest_script>
 </record_update>

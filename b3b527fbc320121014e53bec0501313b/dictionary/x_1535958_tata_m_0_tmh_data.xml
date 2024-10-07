@@ -31,6 +31,7 @@
         <element choice="1" label="Severity" max_length="40" name="severity" type="string">
             <choice/>
         </element>
+        <element default="5" label="sla" max_length="255" name="sla" type="due_date"/>
         <element label="Solution" max_length="40" name="solution" type="string"/>
         <element choice="3" default="Open" label="Status" max_length="40" name="status" type="choice">
             <choice>

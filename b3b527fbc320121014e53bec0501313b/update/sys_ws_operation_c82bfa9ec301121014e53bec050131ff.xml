@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>accept reject</name>
+        <operation_script><![CDATA[(function process (request, response) {
+
+    var ticket_number = request.queryParams.ticket_number;
+    var action = request.queryParams.action;
+    var gr = new GlideRecord('x_1535958_tata_m_0_tmh_data');
+
+    gr.addQuery('number', ticket_number);
+    gr.query();
+
+    if(gr.next()){
+        if (action == 'accept') {
+            gr.state = 3; 
+            gr.update(); 
+            // response.setStatus(200);
+            response.setBody({ message: "Ticket accepted successfully." });
+        } else if (action == 'reject') {
+            gr.state = 0; 
+            gr.update(); 
+            // response.setStatus(200);
+            response.setBody({ message: "Ticket rejected successfully." });
+        }
+    } 
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_1535958_tata_m_0/tmh_api</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 08:46:00</sys_created_on>
+        <sys_id>c82bfa9ec301121014e53bec050131ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>accept reject</sys_name>
+        <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
+        <sys_update_name>sys_ws_operation_c82bfa9ec301121014e53bec050131ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 08:46:00</sys_updated_on>
+        <web_service_definition display_value="tmh api">b9d53252c301121014e53bec0501314d</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>c82bfa9ec301121014e53bec050131ff</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 08:45:52</sys_created_on>
+        <sys_id>8a12971ac341121014e53bec050131fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 08:45:52</sys_updated_on>
+        <table>sys_ws_operation</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
