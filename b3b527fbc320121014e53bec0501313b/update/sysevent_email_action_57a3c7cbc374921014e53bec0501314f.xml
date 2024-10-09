@@ -46,7 +46,7 @@
 <p>Short Description: ${<label dir="ltr" for="x_1535958_tata_m_0_tmh_data.ticket_summary"><span title="" data-original-title="" data-html="false">ticket_summary</span></label>}</p>
 <p>please review the resolution and let us know if it is acceptable:</p>
 <p>&nbsp;</p>
-<p style="margin-left: 300px;"><a class="btn btn-primary" style="background-color: green; color: white; padding: 10px 15px:border-radius: 5px;" href="https://dev188479.service-now.com/api/x_1535958_tata_m_0/tmh_api?ticket_number=${number}&amp;action=accept">Accept</a> <a class="btn btn-primary" style="background-color: red; color: white; padding: 10px 15px:border-radius: 5px;" href="https://dev188479.service-now.com/api/x_1535958_tata_m_0/tmh_api?ticket_number=${number}&amp;action=accept">Reject</a></p>
+<p style="margin-left: 300px;"><a class="btn btn-primary" style="background-color: green; color: white; padding: 10px 15px:border-radius: 5px;" href="https://dev188479.service-now.com/api/x_1535958_tata_m_0/tmh_api?ticket_number=${number}&amp;action=accept">Accept</a> <a class="btn btn-primary" style="background-color: red; color: white; padding: 10px 15px:border-radius: 5px;" href="https://dev188479.service-now.com/api/x_1535958_tata_m_0/tmh_api?ticket_number=${number}&amp;action=reject">Reject</a></p>
 <p>${action.ohttps://dev188479.service-now.compened_by('Accept','accept_resolution')}</p>
 <p>${action.opened_by('Reject','reject_resolution')}</p>
 <p>&nbsp;</p>
@@ -76,7 +76,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>57a3c7cbc374921014e53bec0501314f</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>tmh reso with buttons</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
@@ -84,7 +84,7 @@
         <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
         <sys_update_name>sysevent_email_action_57a3c7cbc374921014e53bec0501314f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-07 09:02:56</sys_updated_on>
+        <sys_updated_on>2024-10-08 09:33:03</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="AES app template email - Standard">f749cd1dc3670110a9f5e548fa40ddd3</template>
         <type>email</type>

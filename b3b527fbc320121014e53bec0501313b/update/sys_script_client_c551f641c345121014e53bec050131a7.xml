@@ -10,44 +10,16 @@
         <messages/>
         <name>Previous_date_validation</name>
         <order/>
-        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-   if (isLoading || newValue === '') {
-      return;
-   }
-
-    // Get the current date and time
-    var currentDate = new Date();
-    
-    // Get the field where you want to apply the restriction (Incident Date field)
-    var incidentDateField = g_form.getValue('date_of_incident');
-
-    // If the field is empty, allow the user to enter a date
-    if (!incidentDateField) {
-        return;
-    }
-
-    // Parse the value of the incident date field to create a Date object
-    var selectedDate = new Date(incidentDateField);
-
-    // If the selected date is in the past, show an error and clear the field
-    if (selectedDate < currentDate) {
-        g_form.showErrorBox('incident_date', 'You cannot choose a past date for the incident.');
-        g_form.setValue('incident_date', '');  // Reset the field
-    }
-}
-
-// Alternatively, if you need to prevent the user from selecting past dates at the time of input, you can add validation in an onSubmit script.
+        <script><![CDATA[// Alternatively, if you need to prevent the user from selecting past dates at the time of input, you can add validation in an onSubmit script.
 function onSubmit() {
     var currentDate = new Date();
-    var incidentDateField = g_form.getValue('incident_date');
+    var incidentDateField = new Date(g_form.getValue('date_of_incident'));
     
     if (!incidentDateField) {
         return true;  // If no date is selected, allow the form to be submitted
     }
 
-    var selectedDate = new Date(incidentDateField);
-
-    if (selectedDate < currentDate) {
+    if (incidentDateField < currentDate) {
         g_form.addErrorMessage('Incident date cannot be in the past.');
         return false;  // Prevent form submission
     }
@@ -68,7 +40,7 @@ function onSubmit() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c551f641c345121014e53bec050131a7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Previous_date_validation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
@@ -76,9 +48,9 @@ function onSubmit() {
         <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
         <sys_update_name>sys_script_client_c551f641c345121014e53bec050131a7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-03 09:22:55</sys_updated_on>
+        <sys_updated_on>2024-10-08 09:14:29</sys_updated_on>
         <table>x_1535958_tata_m_0_tmh_data</table>
-        <type>onChange</type>
+        <type>onSubmit</type>
         <ui_type>0</ui_type>
         <view/>
     </sys_script_client>
