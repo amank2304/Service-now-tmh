@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="assignment_group" table="x_1535958_tata_m_0_tmh_look_up">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Assignment Group</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>assignment_group</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_1535958_tata_m_0_tmh_look_up</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user_group">sys_user_group</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 07:43:07</sys_created_on>
+        <sys_id>618d45dcc33c521014e53bec05013126</sys_id>
+        <sys_name>Assignment Group</sys_name>
+        <sys_package display_value="Tata Memorial Hospitality" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tata Memorial Hospitality">b3b527fbc320121014e53bec0501313b</sys_scope>
+        <sys_update_name>sys_dictionary_x_1535958_tata_m_0_tmh_look_up_assignment_group</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 07:43:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</application>
+        <file_path/>
+        <instance_id>652a04801b02f1146a85eb9b2d4bcb05</instance_id>
+        <instance_name>dev188479</instance_name>
+        <name>sys_dictionary_x_1535958_tata_m_0_tmh_look_up_assignment_group</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="assignment_group" table="x_1535958_tata_m_0_tmh_look_up"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Assignment Group</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>assignment_group</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>x_1535958_tata_m_0_tmh_look_up</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="sys_user_group">sys_user_group</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-18 07:43:07</sys_created_on><sys_id>618d45dcc33c521014e53bec05013126</sys_id><sys_name>Assignment Group</sys_name><sys_package display_value="Tata Memorial Hospitality" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package><sys_policy/><sys_scope display_value="Tata Memorial Hospitality">b3b527fbc320121014e53bec0501313b</sys_scope><sys_update_name>sys_dictionary_x_1535958_tata_m_0_tmh_look_up_assignment_group</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-18 07:43:08</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1753417112</payload_hash>
+        <record_name>tmh look up.Assignment Group</record_name>
+        <reverted_from/>
+        <source>e028ad90c3fc521014e53bec050131c2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 07:43:09</sys_created_on>
+        <sys_id>028d45dcc33c521014e53bec05013173</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>1920415c8440000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:39:23</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>c68d45dc663c52106c6da1bb9c690072</update_guid>
+        <update_guid_history>c68d45dc663c52106c6da1bb9c690072:1753417112,c68d45dc973c521054b6def2c6e31251:-1445954993</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 05:07:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>9c4139ab67774fc78da1f35021e43e29</sys_id>
+        <sys_metadata>618d45dcc33c521014e53bec05013126</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assignment Group</sys_name>
+        <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
+        <sys_parent display_value="">e757f450c3f8521014e53bec050131fe</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
+        <sys_scope_delete display_value="">601e5cfb8d5643d8a5411b0d85ce9604</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1535958_tata_m_0_tmh_look_up_assignment_group</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1535958_tata_m_0_tmh_look_up_assignment_group">028d45dcc33c521014e53bec05013173</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 05:07:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

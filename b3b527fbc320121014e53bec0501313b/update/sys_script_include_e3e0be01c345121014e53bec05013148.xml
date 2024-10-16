@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1535958_tata_m_0.TicketResolutionHandler</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>TicketResolutionHandler</name>
+        <script><![CDATA[var TicketResolutionHandler = Class.create();
+TicketResolutionHandler.prototype = {
+    initialize: function() {},
+
+    // Function for accepting the resolution
+    acceptResolution: function(ticketSysId) {
+        var ticket = new GlideRecord('x_1535958_tata_m_0_tmh_data');  // Replace 'incident' with your table
+        if (ticket.get(ticketSysId)) {
+            ticket.state = 'Closed Complete';  // Set the ticket state to Closed
+            ticket.closed_by = gs.getUserID();  // Set the closed_by field to the current user
+            ticket.close_date = gs.nowDateTime();  // Set the close date
+            ticket.update();
+        }
+    },
+
+    // Function for rejecting the resolution
+    rejectResolution: function(ticketSysId) {
+        var ticket = new GlideRecord('incident');  // Replace 'incident' with your table
+        if (ticket.get(ticketSysId)) {
+            ticket.state = 'Open';  // Set the ticket state back to Assigned
+            ticket.update();
+        }
+    },
+
+    type: 'TicketResolutionHandler'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-03 09:14:07</sys_created_on>
+        <sys_id>e3e0be01c345121014e53bec05013148</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TicketResolutionHandler</sys_name>
+        <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
+        <sys_update_name>sys_script_include_e3e0be01c345121014e53bec05013148</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-03 09:14:07</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>e3e0be01c345121014e53bec05013148</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-03 09:14:04</sys_created_on>
+        <sys_id>1032bec9c305121014e53bec0501314c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-03 09:14:04</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

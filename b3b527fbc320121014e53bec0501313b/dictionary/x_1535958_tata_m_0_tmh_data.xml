@@ -11,12 +11,13 @@
         <element label="Closure Notes" max_length="40" name="closure_notes" type="string"/>
         <element label="Complaint Category" mandatory="true" max_length="40" name="complaint_category" type="string"/>
         <element label="Contact number" mandatory="true" max_length="40" name="contact_number" type="string"/>
-        <element label="Date of incidence (yyyy-MM-dd)" mandatory="true" max_length="40" name="date_of_incident" type="glide_date"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date of incidence (yyyy-MM-dd)" mandatory="true" max_length="40" name="date_of_incident" type="glide_date" use_dynamic_default="true"/>
         <element label="Email Address" max_length="40" name="e_mail" type="string"/>
         <element label="IP number" max_length="40" name="ip_number" type="string"/>
         <element label="Patient category" max_length="40" name="patient_category" type="string"/>
         <element label="Patient MR No." mandatory="true" max_length="40" name="patient_mr_no" type="string"/>
         <element label="Patient name" mandatory="true" max_length="40" name="patient_name" reference="sys_user" type="reference"/>
+        <element label="reopen count" max_length="255" name="reopen_count" read_only="true" type="integer"/>
         <element choice="1" label="Section" max_length="40" name="section" type="string">
             <choice/>
         </element>
@@ -31,6 +32,7 @@
         <element choice="1" label="Severity" max_length="40" name="severity" type="string">
             <choice/>
         </element>
+        <element default="5" label="sla" max_length="255" name="sla" type="due_date"/>
         <element label="Solution" max_length="40" name="solution" type="string"/>
         <element choice="3" default="Open" label="Status" max_length="40" name="status" type="choice">
             <choice>
