@@ -14,25 +14,16 @@
 function onSubmit() {
     var currentDate = new Date();
     var incidentDateField = new Date(g_form.getValue('date_of_incident'));
-    
-    if (!incidentDateField) {
-        return true;  // If no date is selected, allow the form to be submitted
-    }
-
+	currentDate.setHours(0,0,0,0);
+	incidentDateField.setHours(0,0,0,0);
     if (incidentDateField < currentDate) {
+		g_form.addInfoMessage('currentDate '+currentDate);
+		g_form.addInfoMessage('incidentDateField '+incidentDateField);
         g_form.addErrorMessage('Incident date cannot be in the past.');
         return false;  // Prevent form submission
     }
     return true;
-
-   //Type appropriate comment here, and begin script below
-   
 }
-
-
-// Client Script (onChange or onLoad)
-// Table: Incident (incident)
-// Type: onLoad or onChange depending on your requirement
 ]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -40,7 +31,7 @@ function onSubmit() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c551f641c345121014e53bec050131a7</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Previous_date_validation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
@@ -48,7 +39,7 @@ function onSubmit() {
         <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
         <sys_update_name>sys_script_client_c551f641c345121014e53bec050131a7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-08 09:14:29</sys_updated_on>
+        <sys_updated_on>2024-10-16 10:33:45</sys_updated_on>
         <table>x_1535958_tata_m_0_tmh_data</table>
         <type>onSubmit</type>
         <ui_type>0</ui_type>
