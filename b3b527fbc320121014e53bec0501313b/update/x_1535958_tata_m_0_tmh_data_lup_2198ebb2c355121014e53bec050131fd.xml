@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="x_1535958_tata_m_0_tmh_data_lup">
     <x_1535958_tata_m_0_tmh_data_lup action="INSERT_OR_UPDATE">
         <active>true</active>
-        <assignment_group display_value="TMH Outdoor team" name="TMH Outdoor team">908f5376c315121014e53bec05013153</assignment_group>
+        <assignment_group display_value="Administration" name="Administration">93b66332c355121014e53bec0501313e</assignment_group>
         <order>100</order>
-        <services>Medical Outdoor Services</services>
+        <services>Hospital Administration</services>
         <sys_class_name>x_1535958_tata_m_0_tmh_data_lup</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-01 05:19:04</sys_created_on>
-        <sys_id>c368eb10c349521014e53bec05013137</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2024-10-21 09:56:47</sys_created_on>
+        <sys_id>2198ebb2c355121014e53bec050131fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>100</sys_name>
         <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
-        <sys_update_name>x_1535958_tata_m_0_tmh_data_lup_c368eb10c349521014e53bec05013137</sys_update_name>
+        <sys_update_name>x_1535958_tata_m_0_tmh_data_lup_2198ebb2c355121014e53bec050131fd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-21 09:56:47</sys_updated_on>
     </x_1535958_tata_m_0_tmh_data_lup>
