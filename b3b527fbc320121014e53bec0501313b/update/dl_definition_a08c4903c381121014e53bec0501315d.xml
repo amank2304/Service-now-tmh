@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition">
+    <dl_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <matcher_table>x_1535958_tata_m_0_tmh_data_lup</matcher_table>
+        <name>Resolution code</name>
+        <run_on_form_change>true</run_on_form_change>
+        <run_on_insert>true</run_on_insert>
+        <run_on_update>false</run_on_update>
+        <source_table>x_1535958_tata_m_0_tmh_data</source_table>
+        <sys_class_name>dl_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 06:58:13</sys_created_on>
+        <sys_id>a08c4903c381121014e53bec0501315d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resolution code</sys_name>
+        <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
+        <sys_update_name>dl_definition_a08c4903c381121014e53bec0501315d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 06:58:13</sys_updated_on>
+    </dl_definition>
+</record_update>

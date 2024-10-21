@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Age Open Incidents Process">00fb98f1d7f00200b96d45a3ce6103c8</legacy_page>
+        <name>PA Age Open Incidents Process</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-03 06:39:20</sys_created_on>
+        <sys_id>e1ce0ac1c381121014e53bec0501318b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Age Open Incidents Process</sys_name>
+        <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
+        <sys_update_name>sys_grid_canvas_e1ce0ac1c381121014e53bec0501318b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-03 06:39:20</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

@@ -30,7 +30,11 @@
         <name>tmh accept reso</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[current.status='Closed';
+        <script><![CDATA[current.state='Closed Complete';
+
+current.colosed_by=gs.getUserID();
+current.close_on=gs.nowDateTime();
+
 current.update();]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -42,7 +46,7 @@ current.update();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>61078fcfc374921014e53bec05013187</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>tmh accept reso</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
@@ -50,7 +54,7 @@ current.update();]]></script>
         <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
         <sys_update_name>sys_ui_action_61078fcfc374921014e53bec05013187</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-27 05:56:47</sys_updated_on>
+        <sys_updated_on>2024-10-01 08:37:31</sys_updated_on>
         <table>x_1535958_tata_m_0_tmh_data</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
