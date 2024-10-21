@@ -9,17 +9,36 @@
         <element label="Cause" max_length="40" name="cause" type="string"/>
         <element label="Closed On (dd-MM-yyyy hh:mm:ss a)" max_length="40" name="closed_on" type="glide_date_time"/>
         <element label="Closure Notes" max_length="40" name="closure_notes" type="string"/>
-        <element label="Complaint Category" mandatory="true" max_length="40" name="complaint_category" type="string"/>
+        <element label="Complaint Category" mandatory="true" max_length="40" name="complaint_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Security" sequence="0" value="Security"/>
+                <element inactive_on_update="false" label="OPD" sequence="1" value="OPD"/>
+                <element inactive_on_update="false" label="Nursing" sequence="2" value="Nursing"/>
+                <element inactive_on_update="false" label="Radiology" sequence="3" value="Radiology"/>
+                <element inactive_on_update="false" label="Medicine" sequence="4" value="Medicine"/>
+            </choice>
+        </element>
         <element label="Contact number" mandatory="true" max_length="40" name="contact_number" type="string"/>
         <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date of incidence (yyyy-MM-dd)" mandatory="true" max_length="40" name="date_of_incident" type="glide_date" use_dynamic_default="true"/>
         <element label="Email Address" max_length="40" name="e_mail" type="string"/>
         <element label="IP number" max_length="40" name="ip_number" type="string"/>
-        <element label="Patient category" max_length="40" name="patient_category" type="string"/>
+        <element label="Patient category" max_length="40" name="patient_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OPR" sequence="0" value="OPR"/>
+                <element inactive_on_update="false" label="NOPR" sequence="1" value="NOPR"/>
+                <element inactive_on_update="false" label="Alumini" sequence="2" value="Alumini"/>
+            </choice>
+        </element>
         <element label="Patient MR No." mandatory="true" max_length="40" name="patient_mr_no" type="string"/>
         <element label="Patient name" mandatory="true" max_length="40" name="patient_name" reference="sys_user" type="reference"/>
         <element label="reopen count" max_length="255" name="reopen_count" read_only="true" type="integer"/>
         <element choice="1" label="Section" max_length="40" name="section" type="string">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="OPD" sequence="0" value="OPD"/>
+                <element inactive_on_update="false" label="Emergency" sequence="1" value="Emergency"/>
+                <element inactive_on_update="false" label="Main OT" sequence="2" value="Main OT"/>
+                <element inactive_on_update="false" label="Executive Health Check-up" sequence="3" value="Executive Health Check-up"/>
+            </choice>
         </element>
         <element choice="3" label="Services" mandatory="true" max_length="40" name="services" type="string">
             <choice>
