@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1535958_tata_m_0_tmh_data_lup">
+    <x_1535958_tata_m_0_tmh_data_lup action="DELETE">
+        <active>true</active>
+        <assignment_group display_value="Field Services" name="Field Services">74ad1ff3c611227d01d25feac2af603f</assignment_group>
+        <order>100</order>
+        <services>Other Services</services>
+        <sys_class_name>x_1535958_tata_m_0_tmh_data_lup</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 05:20:31</sys_created_on>
+        <sys_id>9b79e390c349521014e53bec0501315f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
+        <sys_update_name>x_1535958_tata_m_0_tmh_data_lup_9b79e390c349521014e53bec0501315f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 05:20:31</sys_updated_on>
+    </x_1535958_tata_m_0_tmh_data_lup>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</application>
+        <file_path/>
+        <instance_id>652a04801b02f1146a85eb9b2d4bcb05</instance_id>
+        <instance_name>dev188479</instance_name>
+        <name>x_1535958_tata_m_0_tmh_data_lup_9b79e390c349521014e53bec0501315f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1535958_tata_m_0_tmh_data_lup"><x_1535958_tata_m_0_tmh_data_lup action="INSERT_OR_UPDATE"><active>true</active><assignment_group display_value="Field Services" name="Field Services">74ad1ff3c611227d01d25feac2af603f</assignment_group><order>100</order><services>Other Services</services><sys_class_name>x_1535958_tata_m_0_tmh_data_lup</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-01 05:20:31</sys_created_on><sys_id>9b79e390c349521014e53bec0501315f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>100</sys_name><sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package><sys_policy/><sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope><sys_update_name>x_1535958_tata_m_0_tmh_data_lup_9b79e390c349521014e53bec0501315f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-01 05:20:31</sys_updated_on></x_1535958_tata_m_0_tmh_data_lup></record_update>]]></payload>
+        <payload_hash>1617946483</payload_hash>
+        <record_name>100</record_name>
+        <reverted_from/>
+        <source>7d0fa60cc301121014e53bec05013126</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 05:20:31</sys_created_on>
+        <sys_id>2f89ab90c349521014e53bec05013199</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1924685e0f40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 05:20:31</sys_updated_on>
+        <type>TMH Data lup</type>
+        <update_guid>2389ab90fd49521058c919a8e3767699</update_guid>
+        <update_guid_history>2389ab90fd49521058c919a8e3767699:1617946483</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="100">4178e7b2c355121014e53bec05013179</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 09:56:13</sys_created_on>
+        <sys_db_object display_value="" name="x_1535958_tata_m_0_tmh_data_lup">x_1535958_tata_m_0_tmh_data_lup</sys_db_object>
+        <sys_id>0c142006640f444289f130e300144df9</sys_id>
+        <sys_metadata>9b79e390c349521014e53bec0501315f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="Tata Memorial Hospital" source="x_1535958_tata_m_0">b3b527fbc320121014e53bec0501313b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tata Memorial Hospital">b3b527fbc320121014e53bec0501313b</sys_scope>
+        <sys_scope_delete display_value="">601e5cfb8d5643d8a5411b0d85ce9604</sys_scope_delete>
+        <sys_update_name>x_1535958_tata_m_0_tmh_data_lup_9b79e390c349521014e53bec0501315f</sys_update_name>
+        <sys_update_version display_value="x_1535958_tata_m_0_tmh_data_lup_9b79e390c349521014e53bec0501315f">2f89ab90c349521014e53bec05013199</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 09:56:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
